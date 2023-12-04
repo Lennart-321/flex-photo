@@ -1,0 +1,19 @@
+body main {
+  margin: 0;
+}
+
+img {
+  width: 300px;
+  margin: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+}
+
+.gallery {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  min-height: 100vh;
+  max-height: 700px;
+  justify-content: space-around;
+  align-items: flex-end;
+}
